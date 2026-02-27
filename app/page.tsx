@@ -85,29 +85,35 @@ export default function WisperLandingPage() {
 
             <div className="hidden md:flex items-center gap-6">
               <a
-                href="#jobs"
+                href="https://wisperonline.com"
                 className="text-gray-300 hover:text-white transition-colors"
               >
                 Find Jobs
               </a>
               <a
-                href="#employers"
+                href="https://wisperonline.com"
                 className="text-gray-300 hover:text-white transition-colors"
               >
                 For Employers
               </a>
               <a
-                href="#about"
+                href="https://wisperonline.com"
                 className="text-gray-300 hover:text-white transition-colors"
               >
                 About
               </a>
-              <button className="px-5 py-2 text-gray-300 hover:text-white transition-colors">
+              <a
+                href="https://wisperonline.com"
+                className="px-5 py-2 text-gray-300 hover:text-white transition-colors"
+              >
                 Sign In
-              </button>
-              <button className="px-5 py-2 bg-[#4459FF] hover:bg-[#3448EE] text-white rounded-lg transition-all duration-300">
+              </a>
+              <a
+                href="https://wisperonline.com"
+                className="px-5 py-2 bg-[#4459FF] hover:bg-[#3448EE] text-white rounded-lg transition-all duration-300"
+              >
                 Get Started
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -156,10 +162,13 @@ export default function WisperLandingPage() {
                     className="flex-1 bg-transparent border-none outline-none text-white placeholder-gray-500"
                   />
                 </div>
-                <button className="px-6 py-3 bg-[#4459FF] hover:bg-[#3448EE] text-white rounded-lg font-medium transition-all duration-300 flex items-center justify-center gap-2">
+                <a
+                  href="https://wisperonline.com"
+                  className="px-6 py-3 bg-[#4459FF] hover:bg-[#3448EE] text-white rounded-lg font-medium transition-all duration-300 flex items-center justify-center gap-2"
+                >
                   Search Jobs
                   <ArrowRight size={20} />
-                </button>
+                </a>
               </div>
             </div>
 
@@ -167,12 +176,13 @@ export default function WisperLandingPage() {
             <div className="flex flex-wrap justify-center gap-2">
               <span className="text-sm text-gray-400">Popular:</span>
               {jobCategories.slice(0, 5).map((category, index) => (
-                <button
+                <a
                   key={index}
+                  href="https://wisperonline.com"
                   className="px-3 py-1 bg-[#1A1A1A] hover:bg-[#252525] border border-[#262626] rounded-full text-sm text-gray-300 transition-colors"
                 >
                   {category}
-                </button>
+                </a>
               ))}
             </div>
           </div>
@@ -307,10 +317,13 @@ export default function WisperLandingPage() {
                   </li>
                 ))}
               </ul>
-              <button className="px-8 py-4 bg-[#4459FF] hover:bg-[#3448EE] text-white rounded-xl font-semibold transition-all duration-300 flex items-center gap-2">
+              <a
+                href="https://wisperonline.com"
+                className="px-8 py-4 bg-[#4459FF] hover:bg-[#3448EE] text-white rounded-xl font-semibold transition-all duration-300 flex items-center gap-2"
+              >
                 Post a Job
                 <ArrowRight size={20} />
-              </button>
+              </a>
             </div>
 
             <div className="relative">
@@ -380,13 +393,19 @@ export default function WisperLandingPage() {
               Wisper
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="px-8 py-4 bg-[#4459FF] hover:bg-[#3448EE] text-white rounded-xl font-semibold transition-all duration-300 flex items-center justify-center gap-2">
+              <a
+                href="https://wisperonline.com"
+                className="px-8 py-4 bg-[#4459FF] hover:bg-[#3448EE] text-white rounded-xl font-semibold transition-all duration-300 flex items-center justify-center gap-2"
+              >
                 Create Free Account
                 <ArrowRight size={20} />
-              </button>
-              <button className="px-8 py-4 bg-[#1A1A1A] hover:bg-[#252525] border border-[#262626] text-white rounded-xl font-semibold transition-all duration-300">
+              </a>
+              <a
+                href="https://wisperonline.com"
+                className="px-8 py-4 bg-[#1A1A1A] hover:bg-[#252525] border border-[#262626] text-white rounded-xl font-semibold transition-all duration-300"
+              >
                 Browse Jobs
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -435,7 +454,7 @@ export default function WisperLandingPage() {
             </p>
             <div className="flex items-center gap-6">
               <a
-                href="#"
+                href="https://wisperonline.com"
                 className="text-gray-400 hover:text-white transition-colors"
               >
                 <Globe size={20} />
