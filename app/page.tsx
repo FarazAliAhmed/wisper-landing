@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import {
   ArrowRight,
   Briefcase,
@@ -46,10 +47,10 @@ export default function WisperLandingPage() {
   ];
 
   const stats = [
-    { value: "50,000+", label: "Active Jobs" },
-    { value: "10,000+", label: "Companies" },
-    { value: "100,000+", label: "Job Seekers" },
-    { value: "95%", label: "Success Rate" },
+    { value: "500+", label: "Active Jobs" },
+    { value: "1,000+", label: "Companies" },
+    { value: "10,000+", label: "Job Seekers" },
+    { value: "60%", label: "Success Rate" },
   ];
 
   const jobCategories = [
@@ -70,11 +71,15 @@ export default function WisperLandingPage() {
         <div className="max-w-7xl mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
-              <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-[#4459FF] to-[#7C3AED] flex items-center justify-center">
-                <Briefcase className="w-5 h-5 text-white" />
-              </div>
+              <Image 
+                src="/wiserper-logo.jpeg" 
+                alt="Wisper Logo" 
+                width={40} 
+                height={40}
+                className="rounded-xl"
+              />
               <span className="text-xl font-bold text-white">
-                Wisper<span className="text-[#4459FF]">Online</span>
+                Wisper
               </span>
             </div>
 
@@ -195,7 +200,7 @@ export default function WisperLandingPage() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold text-white mb-4">
-              Why Choose WisperOnline?
+              Why Choose Wisper?
             </h2>
             <p className="text-xl text-gray-400 max-w-2xl mx-auto">
               Everything you need to find your perfect job and advance your
@@ -289,7 +294,7 @@ export default function WisperLandingPage() {
               </p>
               <ul className="space-y-4 mb-8">
                 {[
-                  "Access to 100,000+ qualified candidates",
+                  "Access to 10,000+ qualified candidates",
                   "Advanced filtering and search tools",
                   "Applicant tracking system",
                   "Dedicated account manager",
@@ -372,7 +377,7 @@ export default function WisperLandingPage() {
             </h2>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
               Join thousands of professionals who found their dream jobs through
-              WisperOnline
+              Wisper
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button className="px-8 py-4 bg-[#4459FF] hover:bg-[#3448EE] text-white rounded-xl font-semibold transition-all duration-300 flex items-center justify-center gap-2">
@@ -393,11 +398,15 @@ export default function WisperLandingPage() {
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
               <div className="flex items-center gap-2 mb-4">
-                <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-[#4459FF] to-[#7C3AED] flex items-center justify-center">
-                  <Briefcase className="w-4 h-4 text-white" />
-                </div>
+                <Image 
+                  src="/wiserper-logo.jpeg" 
+                  alt="Wisper Logo" 
+                  width={32} 
+                  height={32}
+                  className="rounded-lg"
+                />
                 <span className="text-lg font-bold text-white">
-                  WisperOnline
+                  Wisper
                 </span>
               </div>
               <p className="text-gray-400 text-sm">
@@ -406,88 +415,23 @@ export default function WisperLandingPage() {
               </p>
             </div>
 
-            <div>
-              <h3 className="text-white font-semibold mb-4">For Job Seekers</h3>
-              <ul className="space-y-2 text-gray-400 text-sm">
-                <li>
-                  <a href="#" className="hover:text-white transition-colors">
-                    Browse Jobs
+            <div className="md:col-span-3">
+              <h3 className="text-white font-semibold mb-4">Contact Us</h3>
+              <div className="space-y-3 text-gray-400 text-sm">
+                <p>5 Carricks Court, Bosmak Haven Estate,</p>
+                <p>Harris Drive, Lekki, Lagos State.</p>
+                <p className="pt-2">
+                  <a href="mailto:Support@wisperonline.com" className="hover:text-white transition-colors">
+                    Support@wisperonline.com
                   </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:text-white transition-colors">
-                    Career Advice
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:text-white transition-colors">
-                    Resume Builder
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:text-white transition-colors">
-                    Salary Guide
-                  </a>
-                </li>
-              </ul>
-            </div>
-
-            <div>
-              <h3 className="text-white font-semibold mb-4">For Employers</h3>
-              <ul className="space-y-2 text-gray-400 text-sm">
-                <li>
-                  <a href="#" className="hover:text-white transition-colors">
-                    Post a Job
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:text-white transition-colors">
-                    Browse Candidates
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:text-white transition-colors">
-                    Pricing
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:text-white transition-colors">
-                    Recruitment Solutions
-                  </a>
-                </li>
-              </ul>
-            </div>
-
-            <div>
-              <h3 className="text-white font-semibold mb-4">Company</h3>
-              <ul className="space-y-2 text-gray-400 text-sm">
-                <li>
-                  <a href="#" className="hover:text-white transition-colors">
-                    About Us
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:text-white transition-colors">
-                    Contact
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:text-white transition-colors">
-                    Privacy Policy
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:text-white transition-colors">
-                    Terms of Service
-                  </a>
-                </li>
-              </ul>
+                </p>
+              </div>
             </div>
           </div>
 
           <div className="pt-8 border-t border-[#262626] flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-gray-400 text-sm">
-              © 2026 WisperOnline. All rights reserved.
+              © 2026 Wisper. All rights reserved.
             </p>
             <div className="flex items-center gap-6">
               <a
