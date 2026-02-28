@@ -110,7 +110,7 @@ export default function WisperLandingPage() {
               </a>
               <a
                 href="https://wisperonline.com"
-                className="px-5 py-2 bg-[#4459FF] hover:bg-[#3448EE] text-white rounded-lg transition-all duration-300"
+                className="px-5 py-2 bg-[#1B9BD8] hover:bg-[#1587BE] text-white rounded-lg transition-all duration-300"
               >
                 Get Started
               </a>
@@ -122,7 +122,7 @@ export default function WisperLandingPage() {
       {/* Hero Section */}
       <section className="relative overflow-hidden">
         {/* Background gradient */}
-        <div className="absolute inset-0 bg-gradient-to-b from-[#4459FF]/10 via-transparent to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-b from-[#1B9BD8]/10 via-transparent to-transparent" />
 
         <div className="relative max-w-7xl mx-auto px-6 py-20 md:py-32">
           <div className="text-center max-w-4xl mx-auto">
@@ -141,7 +141,7 @@ export default function WisperLandingPage() {
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6">
               Find Your Dream Job
               <br />
-              <span className="bg-gradient-to-r from-[#4459FF] via-[#7C3AED] to-[#4459FF] bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-[#1B9BD8] via-[#1587BE] to-[#1B9BD8] bg-clip-text text-transparent">
                 Start Your Career
               </span>
             </h1>
@@ -164,7 +164,7 @@ export default function WisperLandingPage() {
                 </div>
                 <a
                   href="https://wisperonline.com"
-                  className="px-6 py-3 bg-[#4459FF] hover:bg-[#3448EE] text-white rounded-lg font-medium transition-all duration-300 flex items-center justify-center gap-2"
+                  className="px-6 py-3 bg-[#1B9BD8] hover:bg-[#1587BE] text-white rounded-lg font-medium transition-all duration-300 flex items-center justify-center gap-2"
                 >
                   Search Jobs
                   <ArrowRight size={20} />
@@ -222,10 +222,10 @@ export default function WisperLandingPage() {
             {features.map((feature, index) => (
               <div
                 key={index}
-                className="p-6 bg-[#1A1A1A] border border-[#262626] rounded-xl hover:border-[#4459FF]/50 transition-all duration-300"
+                className="p-6 bg-[#1A1A1A] border border-[#262626] rounded-xl hover:border-[#1B9BD8]/50 transition-all duration-300"
               >
-                <div className="w-14 h-14 rounded-xl bg-[#4459FF]/10 flex items-center justify-center mb-4">
-                  <div className="text-[#4459FF]">{feature.icon}</div>
+                <div className="w-14 h-14 rounded-xl bg-[#1B9BD8]/10 flex items-center justify-center mb-4">
+                  <div className="text-[#1B9BD8]">{feature.icon}</div>
                 </div>
                 <h3 className="text-xl font-semibold text-white mb-2">
                   {feature.title}
@@ -274,10 +274,10 @@ export default function WisperLandingPage() {
                 key={index}
                 className="relative p-8 bg-[#1A1A1A] border border-[#262626] rounded-xl text-center"
               >
-                <div className="w-16 h-16 rounded-2xl bg-[#4459FF]/20 flex items-center justify-center mx-auto mb-4">
-                  <div className="text-[#4459FF]">{item.icon}</div>
+                <div className="w-16 h-16 rounded-2xl bg-[#1B9BD8]/20 flex items-center justify-center mx-auto mb-4">
+                  <div className="text-[#1B9BD8]">{item.icon}</div>
                 </div>
-                <span className="text-5xl font-bold text-[#4459FF]/20 mb-4 block">
+                <span className="text-5xl font-bold text-[#1B9BD8]/20 mb-4 block">
                   {item.step}
                 </span>
                 <h3 className="text-xl font-semibold text-white mb-3">
@@ -319,7 +319,7 @@ export default function WisperLandingPage() {
               </ul>
               <a
                 href="https://wisperonline.com"
-                className="px-8 py-4 bg-[#4459FF] hover:bg-[#3448EE] text-white rounded-xl font-semibold transition-all duration-300 flex items-center gap-2"
+                className="px-8 py-4 bg-[#1B9BD8] hover:bg-[#1587BE] text-white rounded-xl font-semibold transition-all duration-300 flex items-center gap-2"
               >
                 Post a Job
                 <ArrowRight size={20} />
@@ -329,8 +329,8 @@ export default function WisperLandingPage() {
             <div className="relative">
               <div className="p-8 bg-gradient-to-br from-[#1A1A1A] to-[#0D0D0D] border border-[#262626] rounded-2xl">
                 <div className="flex items-center gap-4 mb-6">
-                  <div className="w-12 h-12 rounded-xl bg-[#4459FF]/20 flex items-center justify-center">
-                    <Building2 size={24} className="text-[#4459FF]" />
+                  <div className="w-12 h-12 rounded-xl bg-[#1B9BD8]/20 flex items-center justify-center">
+                    <Building2 size={24} className="text-[#1B9BD8]" />
                   </div>
                   <div>
                     <div className="text-white font-semibold">
@@ -356,7 +356,7 @@ export default function WisperLandingPage() {
                       <span className="text-sm text-gray-400">
                         Applications
                       </span>
-                      <span className="text-2xl font-bold text-[#4459FF]">
+                      <span className="text-2xl font-bold text-[#1B9BD8]">
                         1,247
                       </span>
                     </div>
@@ -381,9 +381,9 @@ export default function WisperLandingPage() {
       {/* CTA Section */}
       <section className="py-20">
         <div className="max-w-4xl mx-auto px-6">
-          <div className="p-12 bg-gradient-to-br from-[#4459FF]/20 to-[#7C3AED]/20 border border-[#4459FF]/30 rounded-2xl text-center">
-            <div className="w-20 h-20 rounded-2xl bg-[#4459FF]/20 flex items-center justify-center mx-auto mb-6">
-              <TrendingUp size={40} className="text-[#4459FF]" />
+          <div className="p-12 bg-gradient-to-br from-[#1B9BD8]/20 to-[#1587BE]/20 border border-[#1B9BD8]/30 rounded-2xl text-center">
+            <div className="w-20 h-20 rounded-2xl bg-[#1B9BD8]/20 flex items-center justify-center mx-auto mb-6">
+              <TrendingUp size={40} className="text-[#1B9BD8]" />
             </div>
             <h2 className="text-3xl md:text-5xl font-bold text-white mb-4">
               Ready to Start Your Journey?
@@ -395,7 +395,7 @@ export default function WisperLandingPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="https://wisperonline.com"
-                className="px-8 py-4 bg-[#4459FF] hover:bg-[#3448EE] text-white rounded-xl font-semibold transition-all duration-300 flex items-center justify-center gap-2"
+                className="px-8 py-4 bg-[#1B9BD8] hover:bg-[#1587BE] text-white rounded-xl font-semibold transition-all duration-300 flex items-center justify-center gap-2"
               >
                 Create Free Account
                 <ArrowRight size={20} />
