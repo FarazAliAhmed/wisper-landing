@@ -21,28 +21,29 @@ export default function WisperLandingPage() {
 
   const features = [
     {
-      icon: <Search size={32} />,
-      title: "Smart Job Matching",
-      description:
-        "Our AI-powered algorithm matches you with the perfect job opportunities based on your skills and preferences.",
-    },
-    {
-      icon: <Users size={32} />,
-      title: "Verified Employers",
-      description:
-        "Connect with trusted companies. All employers are verified to ensure legitimate job opportunities.",
+      icon: <Briefcase size={32} />,
+      title: "Jobs & Gigs",
+      description: "Find Jobs That Meets Your Ambition",
     },
     {
       icon: <Zap size={32} />,
-      title: "Quick Applications",
-      description:
-        "Apply to multiple jobs with one click. Your profile is your resume, making applications fast and easy.",
+      title: "Promote Your Services",
+      description: "Turn Your Skills Into Opportunities",
+    },
+    {
+      icon: <TrendingUp size={32} />,
+      title: "Industry Insights",
+      description: "Stay Ahead of the Market",
+    },
+    {
+      icon: <Users size={32} />,
+      title: "Networking",
+      description: "Build Connections That Matter",
     },
     {
       icon: <Award size={32} />,
-      title: "Career Growth",
-      description:
-        "Access career resources, skill assessments, and personalized recommendations to advance your career.",
+      title: "Career Opportunities",
+      description: "More Than Jobs—Access Real Opportunities.",
     },
   ];
 
@@ -54,14 +55,11 @@ export default function WisperLandingPage() {
   ];
 
   const jobCategories = [
-    "Technology",
-    "Healthcare",
-    "Finance",
-    "Marketing",
-    "Sales",
-    "Engineering",
-    "Education",
-    "Design",
+    "Developers",
+    "Tech Founders",
+    "Data Analysts",
+    "UI/UX Designers",
+    "Product Managers",
   ];
 
   return (
@@ -133,22 +131,21 @@ export default function WisperLandingPage() {
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-green-400"></span>
               </span>
               <span className="text-sm text-gray-300">
-                Nigeria's Leading Job Platform
+                free community
               </span>
             </div>
 
             {/* Main Heading */}
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6">
-              Find Your Dream Job
+              Your professional networking.
               <br />
               <span className="bg-gradient-to-r from-[#1B9BD8] via-[#1587BE] to-[#1B9BD8] bg-clip-text text-transparent">
-                Start Your Career
+                Reimagined
               </span>
             </h1>
 
             <p className="text-xl text-gray-400 mb-10 max-w-2xl mx-auto">
-              Connect with top employers across Nigeria. Discover thousands of
-              job opportunities and take the next step in your career journey.
+              join a professional community or industry.
             </p>
 
             {/* Search Bar */}
@@ -166,7 +163,7 @@ export default function WisperLandingPage() {
                   href="https://wisperonline.com"
                   className="px-6 py-3 bg-[#1B9BD8] hover:bg-[#1587BE] text-white rounded-lg font-medium transition-all duration-300 flex items-center justify-center gap-2"
                 >
-                  Search Jobs
+                  Search Communities
                   <ArrowRight size={20} />
                 </a>
               </div>
@@ -213,12 +210,11 @@ export default function WisperLandingPage() {
               Why Choose Wisper?
             </h2>
             <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-              Everything you need to find your perfect job and advance your
-              career
+              Why Choose Wisper?
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6">
             {features.map((feature, index) => (
               <div
                 key={index}
@@ -245,7 +241,7 @@ export default function WisperLandingPage() {
               How It Works
             </h2>
             <p className="text-xl text-gray-400">
-              Get hired in three simple steps
+              How it&apos;s works
             </p>
           </div>
 
@@ -253,20 +249,20 @@ export default function WisperLandingPage() {
             {[
               {
                 step: "01",
-                title: "Create Your Profile",
-                desc: "Sign up and build your professional profile in minutes",
+                title: "Join a Community",
+                desc: "Join a community that matches your industry",
                 icon: <Users size={32} />,
               },
               {
                 step: "02",
-                title: "Search & Apply",
-                desc: "Browse thousands of jobs and apply with one click",
+                title: "Create Your Profile",
+                desc: "Create your profile and showcase your expertise",
                 icon: <Search size={32} />,
               },
               {
                 step: "03",
-                title: "Get Hired",
-                desc: "Connect with employers and land your dream job",
+                title: "Connect & Earn",
+                desc: "Start connecting, applying, and earning",
                 icon: <Target size={32} />,
               },
             ].map((item, index) => (
