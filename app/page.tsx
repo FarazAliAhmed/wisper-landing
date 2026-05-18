@@ -322,54 +322,6 @@ export default function WisperLandingPage() {
               </a>
             </div>
 
-            <div className="relative">
-              <div className="p-8 bg-gradient-to-br from-[#1A1A1A] to-[#0D0D0D] border border-[#262626] rounded-2xl">
-                <div className="flex items-center gap-4 mb-6">
-                  <div className="w-12 h-12 rounded-xl bg-[#1B9BD8]/20 flex items-center justify-center">
-                    <Building2 size={24} className="text-[#1B9BD8]" />
-                  </div>
-                  <div>
-                    <div className="text-white font-semibold">
-                      Company Dashboard
-                    </div>
-                    <div className="text-sm text-gray-400">
-                      Manage your hiring
-                    </div>
-                  </div>
-                </div>
-
-                <div className="space-y-4">
-                  <div className="p-4 bg-[#0A0A0A] border border-[#262626] rounded-lg">
-                    <div className="flex items-center justify-between mb-2">
-                      <span className="text-sm text-gray-400">
-                        Active Jobs
-                      </span>
-                      <span className="text-2xl font-bold text-white">24</span>
-                    </div>
-                  </div>
-                  <div className="p-4 bg-[#0A0A0A] border border-[#262626] rounded-lg">
-                    <div className="flex items-center justify-between mb-2">
-                      <span className="text-sm text-gray-400">
-                        Applications
-                      </span>
-                      <span className="text-2xl font-bold text-[#1B9BD8]">
-                        1,247
-                      </span>
-                    </div>
-                  </div>
-                  <div className="p-4 bg-[#0A0A0A] border border-[#262626] rounded-lg">
-                    <div className="flex items-center justify-between mb-2">
-                      <span className="text-sm text-gray-400">
-                        Hired This Month
-                      </span>
-                      <span className="text-2xl font-bold text-green-400">
-                        18
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </section>
@@ -433,11 +385,10 @@ export default function WisperLandingPage() {
             <div className="md:col-span-3">
               <h3 className="text-white font-semibold mb-4">Contact Us</h3>
               <div className="space-y-3 text-gray-400 text-sm">
-                <p>5 Carricks Court, Bosmak Haven Estate,</p>
-                <p>Harris Drive, Lekki, Lagos State.</p>
+                <p>80 Willow Street, Menlo Park, CA 94025</p>
                 <p className="pt-2">
-                  <a href="mailto:Support@wisperonline.com" className="hover:text-white transition-colors">
-                    Support@wisperonline.com
+                  <a href="mailto:support@wisperonline.com" className="hover:text-white transition-colors">
+                    support@wisperonline.com
                   </a>
                 </p>
               </div>
