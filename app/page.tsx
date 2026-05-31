@@ -144,9 +144,31 @@ export default function WisperLandingPage() {
               </span>
             </h1>
 
-            <p className="text-xl text-gray-400 mb-10 max-w-2xl mx-auto">
+            <p className="text-xl text-gray-400 mb-6 max-w-2xl mx-auto">
               join a professional community or industry.
             </p>
+
+            {/* App Store Buttons */}
+            <div className="flex flex-col sm:flex-row gap-3 justify-center mb-10">
+              <a
+                href="https://apps.apple.com"
+                className="px-6 py-3 bg-[#1B9BD8] hover:bg-[#1587BE] text-white rounded-lg font-medium transition-all duration-300 flex items-center justify-center gap-2"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 814 1000" className="w-5 h-5 fill-white">
+                  <path d="M788.1 340.9c-5.8 4.5-108.2 62.2-108.2 190.5 0 148.4 130.3 200.9 134.2 202.2-.6 3.2-20.7 71.9-68.7 141.9-42.8 61.6-87.5 123.1-155.5 123.1s-85.5-39.5-164-39.5c-76 0-103.7 40.8-165.9 40.8s-105-57.8-155.5-127.4C46 790.7 0 663 0 541.8c0-207.5 135.4-317.3 269-317.3 70.1 0 128.4 46.4 172.5 46.4 42.8 0 109.6-49 192.5-49 30.9 0 108.2 2.6 168.6 71.9zm-174.5-89.5c-9-45.1-25.7-92.5-57.8-130.4-41.5-48.3-100.5-80.4-155.5-80.4-3.2 0-6.5.3-9.7.6 1.9 47.7 19.5 95.1 50.3 131.7 33.2 39.5 93.5 71.3 172.7 78.5z"/>
+                </svg>
+                App Store
+              </a>
+              <a
+                href="https://play.google.com/store/apps/details?id=com.wisperapplication.app&pcampaignid=web_share"
+                className="px-6 py-3 bg-[#1B9BD8] hover:bg-[#1587BE] text-white rounded-lg font-medium transition-all duration-300 flex items-center justify-center gap-2"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" className="w-5 h-5 fill-white">
+                  <path d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c17.1-9.8 17.1-34.9-.2-60.8zM104.6 499l280.8-161.2-60.1-60.1L104.6 499z"/>
+                </svg>
+                Google Play
+              </a>
+            </div>
 
             {/* Search Bar */}
             <div className="max-w-2xl mx-auto mb-8">
