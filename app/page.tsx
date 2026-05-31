@@ -149,7 +149,7 @@ export default function WisperLandingPage() {
             </p>
 
             {/* App Store Buttons */}
-            <div className="flex flex-col sm:flex-row gap-3 justify-center mb-10">
+            <div className="flex flex-row gap-3 justify-center mb-10">
               <a
                 href="https://apps.apple.com"
                 className="px-6 py-3 bg-[#1B9BD8] hover:bg-[#1587BE] text-white rounded-lg font-medium transition-all duration-300 flex items-center justify-center gap-2"
